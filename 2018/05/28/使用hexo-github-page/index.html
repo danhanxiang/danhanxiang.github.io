@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next muse use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -85,7 +85,7 @@
 <meta property="og:url" content="http://yoursite.com/2018/05/28/使用hexo-github-page/index.html">
 <meta property="og:site_name" content="翔子的博客">
 <meta property="og:description" content="Web 前端爱好者。写博客的好处，不是为了写而写，而是一个记录思想的过程。不要考虑它能带给你什么，而是你自己从中收获了什么。 最近刚好有空，于是就参照网上的各种教程，搭建了一个博客。现在把 Hexo + GitHub Pages 搭建博客的完整过程记录下来： 大概流程：1. 搭建 Node.js 环境2. 搭建 Git 环境3. GitHub 注册和配置4. 安装配置 Hexo5. 关联 Hexo">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="default">
 <meta property="og:image" content="http://oph264zoo.bkt.clouddn.com/17-5-28/25738843.jpg">
 <meta property="og:image" content="http://oph264zoo.bkt.clouddn.com/17-5-28/62582265.jpg">
 <meta property="og:image" content="http://oph264zoo.bkt.clouddn.com/17-5-28/13485948.jpg">
@@ -148,7 +148,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
 
   
   
@@ -191,52 +191,52 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-首页">
+        <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            首页
+            Home
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-分类">
+        <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            分类
+            Categories
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-标签">
+        <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            标签
+            Tags
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-归档">
+        <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            归档
+            Archives
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-关于">
+        <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            关于
+            About
           </a>
         </li>
       
@@ -993,6 +993,10 @@ git push -u origin master #以后每次提交可以直接git push
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="翔子" />
+            
               <p class="site-author-name" itemprop="name">翔子</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -1002,7 +1006,7 @@ git push -u origin master #以后每次提交可以直接git push
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives">
+                <a href="/archives/">
               
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
